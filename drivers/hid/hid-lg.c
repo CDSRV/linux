@@ -936,6 +936,9 @@ static const struct hid_device_id lg_devices[] = {
 		.driver_data = LG_RDESC_REL_ABS },
 	{ HID_USB_DEVICE(USB_VENDOR_ID_LOGITECH, USB_DEVICE_ID_SPACETRAVELLER),
 		.driver_data = LG_RDESC_REL_ABS },
+	{ HID_USB_DEVICE(USB_VENDOR_ID_3DCONNEXION, USB_DEVICE_ID_3D_SPACEMOUSE),
+		.driver_data = LG_RDESC_REL_ABS },
+
 	{ }
 };
 
